@@ -58,7 +58,7 @@ body{
 }
 .btn-robot{
 	border-radius: 0;
-	background-color: #fabe12;
+	background-color: #349494;
 	color: #fff;
 	text-transform: uppercase;
 	border-color: transparent;
@@ -70,8 +70,8 @@ body{
 }
 .btn-robot:hover{
 	background-color: transparent;
-	color: #fabe12;
-	border-color: #fabe12;
+	color: #349494;
+	border-color: #349494;
 }
 
 
@@ -82,7 +82,7 @@ body{
 =======================================================================*/
 .site-header-bg{
 	width: 100%;
-	background-color: #111;
+	background-color: #535454;
 	z-index: 1;
 	padding: 30px 0;
 	color: #fff;
@@ -116,11 +116,11 @@ body{
 	text-align: center;
 	color: #fff;
 	letter-spacing: 3px;
-	background: #111;
+	background: #535454;
 	position: relative;
 }
 .header-quote{
-	color: #fabe12;
+	color: #439494;
 	font-weight: 700;
 	margin-bottom: 0;
 }
@@ -136,8 +136,9 @@ body{
 	letter-spacing: 6px;
 }
 .intro{
-	padding: 200px 0;
-    background-image: url(../images/Covid-19.jpg);
+	position: absolute;
+	padding: 300px 0;
+    background-image: url(../images/Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -152,16 +153,17 @@ body{
 	position: relative;
 }
 .navbar{
+	border-width:thin;
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 .navbar-default{
-	border-color: #262626;
-    background-color: #111;
+	border-color: #EAECEE;
+    background-color: #535454
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	color: #fabe12;
+	color: #349494;
 	background-color: transparent;
 }
 .navbar .navbar-nav {
@@ -172,7 +174,7 @@ body{
     text-align: center;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: #fff;
+	color: black;
 }
 
 
@@ -259,7 +261,7 @@ body{
     left: 25px;
     right: 25px;
     padding: 15px;
-    background-color: #fabe12;
+    background-color: #349494;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -276,7 +278,7 @@ body{
 	position: absolute;
 	top: 3px;
 	left: 0;
-	border-top: 60px solid #fabe12;
+	border-top: 60px solid #349494;
 	border-right: 60px solid transparent;
 	margin-left: -15px;
 	width: 250px;
@@ -321,14 +323,14 @@ body{
 ##		History Section
 =======================================================================*/
 .history .section-bg{
-	background-color: #111;
+	background-color: #535454;
 	text-align: center;
 }
 .history p{
 	color: #fff;
 }
 .history .title{
-	color: #fabe12;
+	color: #349494;
 }
 .history img{
 	padding: 60px 0 0;
@@ -379,7 +381,7 @@ body{
 	font-weight: 300;
 }
 .inner-header .breadcrumb>.active{
-	color: #fabe12;
+	color: #349494;
 }
 .inner-header .breadcrumb a{
 	color: #fff;
@@ -474,7 +476,7 @@ body{
   transition: all 0.4s ease-in-out;
 }
 .panel-default>.panel-heading:hover{
-	background-color: #fabe12;
+	background-color: #349494;
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
   border-top: 2px solid rgba(0,0,0,.1);
@@ -506,7 +508,7 @@ body{
 	position: absolute;
 	left: -90%;
 	top: -90%;
-	background-color: #fabe12;
+	background-color: #349494;
 	width: 100%;
 	height: 100%;
 	transition: all 0.4s ease-in-out;
@@ -542,7 +544,7 @@ body{
 }
 .star{
 	margin: 0;
-	color: #fabe12;
+	color: #349494;
 }
 @media (min-width: 768px){
 	.shop-price, .star{
@@ -555,8 +557,8 @@ body{
 }
 .pager li>a:focus, .pager li>a:hover{
 	color: #fff;
-	border-color: #fabe12;
-	background-color: #fabe12;
+	border-color: #349494;
+	background-color: #349494;
 }
 
 
@@ -598,7 +600,7 @@ body{
 	padding-left: 0;
 }
 .contact-form .form-control:active, .contact-form .form-control:focus{
-	border-bottom: 1px solid #fabe12;
+	border-bottom: 1px solid #349494;
 	box-shadow: none;
 }
 
@@ -656,7 +658,7 @@ body{
 }
 .service-title .icon span{
 	font-size: 40px;
-	color: #fabe12;
+	color: #349494;
 	margin-right: 15px;
 }
 .service-title div{
@@ -677,7 +679,7 @@ body{
 	letter-spacing: 2px;
 }
 .m-s-title{
-	color: #fabe12;
+	color: #349494;
 	margin: 0;
 	padding-top: 100px;
 }
@@ -737,7 +739,7 @@ body{
 .social {
  	font-size: 24px;
 	float: right;
-	background-color: #fabe12;
+	background-color: #349494;
 	padding: 5px;
 }
 .social a {
@@ -765,7 +767,7 @@ body{
 	margin-top: 10px;
 }
 .cta .btn-robot:hover{
-	color: #fabe12;
+	color: #349494;
 }
 @media (max-width: 677px){
 	.cta{
